@@ -1,0 +1,66 @@
+#player_box{
+    background-color: rgb(37, 61, 70);
+    width:700px;
+    height:100px;
+    margin: 5px;
+}
+
+.player_title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+#point_total{
+    margin: 0;
+    color: lightgreen;
+    font-size: 4rem;
+}
+
+#name_title{
+    text-align: center;
+    padding-top: 14px;
+
+}
+
+
+#player_button,#player_reset, .player_total,.player_reset,.reset_count{
+        margin: 3px;
+        width: 100px;
+        font-size: 1em;
+        height: 80px;
+        border-radius: .5em;
+        background-image: -webkit-repeating-linear-gradient(left, hsla(0,0%,100%,0) 0%, hsla(0,0%,100%,0)   6%, hsla(0,0%,100%, .1) 7.5%),
+          -webkit-repeating-linear-gradient(left, hsla(0,0%,  0%,0) 0%, hsla(0,0%,  0%,0)   4%, hsla(0,0%,  0%,.03) 4.5%),
+          -webkit-repeating-linear-gradient(left, hsla(0,0%,100%,0) 0%, hsla(0,0%,100%,0) 1.2%, hsla(0,0%,100%,.15) 2.2%),
+          
+          linear-gradient(180deg, hsl(0,0%,78%)  0%, 
+          hsl(0,0%,90%) 47%, 
+          hsl(0,0%,78%) 53%,
+          hsl(0,0%,70%)100%);
+
+}
+ .player_total,.player_reset{
+    margin-top: 13px;
+    width: 200px;
+    font-size: 1em;
+    height: 40px;
+    border-radius: .5em;
+    background-image: -webkit-repeating-linear-gradient(left, hsla(0,0%,100%,0) 0%, hsla(0,0%,100%,0)   6%, hsla(0,0%,100%, .1) 7.5%),
+      -webkit-repeating-linear-gradient(left, hsla(0,0%,  0%,0) 0%, hsla(0,0%,  0%,0)   4%, hsla(0,0%,  0%,.03) 4.5%),
+      -webkit-repeating-linear-gradient(left, hsla(0,0%,100%,0) 0%, hsla(0,0%,100%,0) 1.2%, hsla(0,0%,100%,.15) 2.2%),
+      
+      linear-gradient(180deg, hsl(0,0%,78%)  0%, 
+      hsl(0,0%,90%) 47%, 
+      hsl(0,0%,78%) 53%,
+      hsl(0,0%,70%)100%);
+
+}
+.player_total{
+    margin-right: 38px;
+}
+.player_reset{
+    margin-right: 17px;   
+}

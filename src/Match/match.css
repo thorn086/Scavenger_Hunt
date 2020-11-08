@@ -1,0 +1,40 @@
+#match_box{
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+     
+    
+}
+
+#match_container, #round_container{
+    width:300px;
+    height:450px;
+    background-color: rgb(3, 13, 158);
+}
+
+.match_count{
+    font-size: 5rem;
+    color: rgb(168, 255, 6);
+}
+
+.match_title{
+    color: white;
+    border-bottom: 10px black solid;
+    padding-bottom: 15px;
+}
+#match_button,#match_reset{
+    margin: 3px;
+    width: 90px;
+    font-size: 1em;
+    height: 40px;
+    border-radius: .5em;
+    background-image: -webkit-repeating-linear-gradient(left, hsla(0,0%,100%,0) 0%, hsla(0,0%,100%,0)   6%, hsla(0,0%,100%, .1) 7.5%),
+      -webkit-repeating-linear-gradient(left, hsla(0,0%,  0%,0) 0%, hsla(0,0%,  0%,0)   4%, hsla(0,0%,  0%,.03) 4.5%),
+      -webkit-repeating-linear-gradient(left, hsla(0,0%,100%,0) 0%, hsla(0,0%,100%,0) 1.2%, hsla(0,0%,100%,.15) 2.2%),
+      
+      linear-gradient(180deg, hsl(0,0%,78%)  0%, 
+      hsl(0,0%,90%) 47%, 
+      hsl(0,0%,78%) 53%,
+      hsl(0,0%,70%)100%);
+
+}

@@ -1,25 +1,55 @@
-import logo from './logo.svg';
+import React from "react";
 import './App.css';
+import Players from './players/players';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import Match from './Match/match'
+
+
+class App extends React.Component{
+    constructor(){
+      super();
+
+      this.state = {players: [],
+                    count:0};
+  }
+
+
+
+
+handleSelectedPLayers(){
+  const count = this.state.count;
+  this.setState({
+    count:count +1
+  });
+    this.setState({
+      players: [...this.state.players, <li  key={this.state.count}><Players /></li>]
+  });
+};
+
+handlePlayerReset(){  
+this.setState({
+    players:[]
+  });
+};
+
+
+
+  render(){
+    const {players} = this.state;
+      return (
+        <div className="App">
+            <Match />
+            <div id='game_buttons'>
+              <button className='player_total' onClick={()=>this.handleSelectedPLayers()}>Add Players</button>
+              <button className='player_reset' onClick={()=> this.handlePlayerReset()}>Clear Players</button>
+            </div>
+            <ul className='players_box'>
+                {players.map(player => player)}
+            </ul>
+
+        </div>
+      );
+  };
 }
 
 export default App;

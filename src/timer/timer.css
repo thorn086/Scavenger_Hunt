@@ -1,0 +1,26 @@
+#timer_box{
+    background-color: rgb(0, 139, 128);
+}
+
+.timer_display{
+    font-size: 4rem;
+}
+
+.start_count{
+    background-color: green;
+    font-size: 1rem;
+    color: white;
+}
+.stop_count{
+    background-color: red;
+    font-size: 1rem;
+    color: white;
+}
+
+.start_count,.stop_count,.reset_count{
+    width: 300px;
+    height:80px;
+    margin:10px;
+    border-radius: .5em;
+
+}
