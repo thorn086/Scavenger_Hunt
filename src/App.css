@@ -20,9 +20,11 @@
   color: #61dafb;
 }
 ul{
+  width:100%;
+  display: block;
   padding: 0;
 }
-li{margin-left: 34px;}
+li{margin-left: 2px;}
 .players_box{
   list-style: none;
   width:auto;
