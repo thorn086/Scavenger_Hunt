@@ -1,5 +1,5 @@
 ## Scavenger Hunt Game
-This is an app to play the vertual scavenger hunt.
+This is an app to play the virtual scavenger hunt.
 ## Live
 https://scavenger-hunt-seven.vercel.app
 
@@ -7,10 +7,10 @@ https://scavenger-hunt-seven.vercel.app
 
 A virtual scavenger hunt is where you find household items based on a list.
 PLAYERS:
-1 to EVERYONE can participate in a very one for themselves play.
+1 to EVERYONE can participate in an every one for themselves play.
 TO PLAY:
-There is a total of 3 matches to be played.  Each Match consists of 5 individual rounds with each round lasting 2 minutes.  At the end of each Match there is a 3-minute break to tally point or get a drink of water.
-When the round is played the round official will list of three random items for a player to find.  The player must then find the item and bring back to their spot.  If an item is too big to carry a photo can be taken.  The photo must have the player present next to the item in the photo. 
+There is a total of 3 matches to be played.  Each Match consists of 5 individual rounds with each round lasting 2 minutes.  At the end of each Match there is a 3-minute break to tally points or get a drink of water.
+When the round is played, the round official will list off three random items for a player to find.  The player must then find the item and bring back to their spot.  If an item is too big to carry a photo can be taken.  The photo must have the player present next to the item in the photo. 
 BONUS ROUNDS:
 Bonus rounds are played on even number rounds (round 2 and 4), were a fourth Item can be in play that is unique or rare in availability.  
 POINTS:
