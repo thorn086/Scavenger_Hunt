@@ -3,13 +3,13 @@ import Timer from '../timer/timer';
 import './match.css'
 
 class Match extends React.Component{
-    constructor(){
-        super();
+    constructor(props){
+        super(props);
         this.state={
             match: 1,
-            round:0,
+            round:1,
             disabled:false,
-            game: true    
+            game: true,  
             }
     }
 
@@ -22,7 +22,7 @@ class Match extends React.Component{
         })
         if( round === 5){
             this.setState({
-                round: 0
+                round: 1
             });
             this.setState({
                 match:match +1
@@ -45,14 +45,15 @@ class Match extends React.Component{
     handleRestGame(){
         this.setState({
             match:1,
-            round: 0,
+            round: 1,
             disabled:false,
             game:true
         })
     }
 
+  
     render(){
-        const {match, round,disabled,game} =this.state
+        const {match,round,disabled,game} =this.state
         return(
             <div id='match_box'>
                 
@@ -67,6 +68,7 @@ class Match extends React.Component{
                     <button id='match_button' disabled={disabled} onClick={()=> this.handleNextRound()}> Next Round</button>
                     <button id='match_reset' disabled={game} onClick={()=> this.handleRestGame()}>New Game</button>
                 </div>
+               
             </div>
         );
     }

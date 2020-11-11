@@ -3,8 +3,8 @@ import './timer.css'
 
 
 class Timer extends React.Component{
-    constructor(){
-        super();
+    constructor(props){
+        super(props);
         this.state={
             minutes: 2,
             seconds: 0

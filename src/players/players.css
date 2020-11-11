@@ -1,6 +1,6 @@
 #player_box{
     background-color: rgb(37, 61, 70);
-    width:700px;
+    width:600px;
     height:100px;
     margin: 5px;
 }
@@ -16,7 +16,7 @@
 #point_total{
     margin: 0;
     color: lightgreen;
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 #name_title{
@@ -24,13 +24,26 @@
     padding-top: 14px;
 
 }
-
-
+#btn_box{
+    width:300px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+}
+#bonus_pnts_box{
+    margin:7px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+#three_pnts,#five_pnts{
+    margin: 3px;
+}
 #player_button,#player_reset, .player_total,.player_reset,.reset_count{
-        margin: 3px;
-        width: 100px;
+        margin: 35px 7px 3px 3px;
+        width: 70px;
         font-size: 1em;
-        height: 80px;
+        height: 30px;
         border-radius: .5em;
         background-image: -webkit-repeating-linear-gradient(left, hsla(0,0%,100%,0) 0%, hsla(0,0%,100%,0)   6%, hsla(0,0%,100%, .1) 7.5%),
           -webkit-repeating-linear-gradient(left, hsla(0,0%,  0%,0) 0%, hsla(0,0%,  0%,0)   4%, hsla(0,0%,  0%,.03) 4.5%),
