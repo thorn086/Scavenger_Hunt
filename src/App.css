@@ -35,5 +35,10 @@ li{margin-left: 2px;}
   flex-direction: row;
   flex-wrap: wrap;
 }
+#game_buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
 
 

@@ -12,6 +12,7 @@ class Timer extends React.Component{
     }
 
     handleCountDown(){
+        
         this.setState({isActive:true});
 
         
@@ -25,7 +26,7 @@ class Timer extends React.Component{
                 }
                 if (seconds === 0) {
                     if (minutes === 0) {
-                        clearInterval(this.myInterval)
+                        clearInterval(this.myInterval);
                     } else {
                         this.setState(({ minutes }) => ({
                             minutes: minutes - 1,
